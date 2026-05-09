@@ -18,8 +18,7 @@ if (isset($_GET['adicionar'])) {
 
 $_SESSION['carrinho'][] = $id_produto;
 header("Location: index.php?sucesso=1");
-exit;
-}   
+    exit;
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -44,5 +43,4 @@ exit;
             <a href="login.php">Login</a>
             <?php endif; ?>
         </nav>
-        
     </header>
